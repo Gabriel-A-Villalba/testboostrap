@@ -1,0 +1,29 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero personalizado */
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url("https://picsum.photos/1200/800");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Cards personalizadas */
+.custom-card {
+    transition: transform 0.3s;
+    border-radius: 15px;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+}
